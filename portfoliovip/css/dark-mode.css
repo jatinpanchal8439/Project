@@ -1,0 +1,51 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --text-color: #ffffff;
+    --bg-color: #1a1a1a;
+    --hover-color: #2ecc71;
+}
+
+body.dark-mode .navbar {
+    background-color: rgba(26, 26, 26, 0.95);
+}
+
+body.dark-mode .nav-links a {
+    color: white;
+}
+
+body.dark-mode .dark-mode-toggle {
+    color: white;
+}
+
+body.dark-mode .about,
+body.dark-mode .skills {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.dark-mode .projects,
+body.dark-mode .contact {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+body.dark-mode .skill-card {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+    background-color: #333;
+    border-color: #444;
+    color: white;
+}
+
+body.dark-mode .project-card {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .project-info {
+    background: rgba(0, 0, 0, 0.9);
+}
